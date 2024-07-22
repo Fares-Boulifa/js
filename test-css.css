@@ -1,0 +1,43 @@
+/* section card */
+
+.card {
+    display: flex;
+}
+
+.card img {
+    width: 100px;
+}
+
+.cards {
+    margin: 5% 30%;
+}
+
+.unitt-price {
+    margin-left: 150px;
+}
+
+i {
+    cursor: pointer;
+}
+
+
+/* Total price  */
+
+.total-price-container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* Default heart color */
+.fa-heart {
+    color: rgb(168, 168, 168); /* Default color for the heart */
+}
+/* Default heart color */
+.fa-heart {
+    color: gray; /* Default color for the heart */
+}
+
+/* Red heart when liked */
+.fa-heart.liked {
+    color: red;
+}
+
